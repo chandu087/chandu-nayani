@@ -59,9 +59,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(12.00f);
         prescription.setCylinderValue(2.00f);
         prescription.setAxisValue(90.00f);
+        prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Dylan Zouch");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -73,9 +73,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(16.00f);
         prescription.setCylinderValue(1.00f);
         prescription.setAxisValue(120.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Matthew Ewan");
-
-        // Verify that the prescription fails to be added
+        
         assertFalse(prescription.addPrescription());
     }
 
@@ -88,9 +88,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(11.00f);
         prescription.setCylinderValue(-1.00f);
         prescription.setAxisValue(70.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Michael Narelle");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -102,9 +102,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(11.00f);
         prescription.setCylinderValue(-1.50f);
         prescription.setAxisValue(90.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Sean Sturt");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -116,10 +116,10 @@ class PrescriptionUnitTest {
         prescription.setPatientAddress("India");
         prescription.setSphericalValue(10.00f);
         prescription.setCylinderValue(3.00f);
-        prescription.setAxisValue(90.00f);
+        prescription.setAxisValue(90.00f);	
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Justin Southwell");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -131,9 +131,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(11.00f);
         prescription.setCylinderValue(-3.00f);
         prescription.setAxisValue(90.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Justin Southwell");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -146,9 +146,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(25.00f); // Out of bounds
         prescription.setCylinderValue(1.00f);
         prescription.setAxisValue(90.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Daniel Longworth");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -160,9 +160,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(34.00f); // Out of bounds
         prescription.setCylinderValue(3.00f);
         prescription.setAxisValue(90.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Hunter Ritchie");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -175,9 +175,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(13.00f);
         prescription.setCylinderValue(2.60f);
         prescription.setAxisValue(64.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Ram");
 
-        // Verify that the prescription fails to be added
         assertFalse(prescription.addPrescription());
     }
 
@@ -189,9 +189,9 @@ class PrescriptionUnitTest {
         prescription.setSphericalValue(17.00f);
         prescription.setCylinderValue(-2.40f);
         prescription.setAxisValue(54.00f);
+	prescription.setTestDate(new SimpleDateFormat("dd/MM/yy").parse("21/10/23"));
         prescription.setOptometristName("Jay");
-
-        // Verify that the prescription fails to be added
+        
         assertFalse(prescription.addPrescription());
     }
 
