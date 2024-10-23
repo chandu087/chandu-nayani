@@ -1,0 +1,24 @@
+Remark Type: Client
+Remark: The vision seems to have improved significantly since the last check.
+=================================
+Remark Type: Client
+Remark: This is a valid test case for remark.
+=================================
+Remark Type: Optometrist
+Remark: This is another valid test case for remark.
+=================================
+Remark Type: Client
+Remark: First valid test case for remark.
+=================================
+Remark Type: Optometrist
+Remark: Second valid test case for remark.
+=================================
+Remark Type: Client
+Remark: The vision seems to have improved significantly since the last check.
+=================================
+Remark Type: Client
+Remark: This is a valid test case for remark.
+=================================
+Remark Type: Optometrist
+Remark: This is another valid test case for remark.
+=================================
